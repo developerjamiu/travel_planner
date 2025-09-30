@@ -58,4 +58,4 @@ Ready to dive in and build the AI-powered features yourself?
 
 We have prepared a detailed, step-by-step guide that will walk you through the entire process of replacing the mock data service with a live integration to the Gemini API using the Firebase AI Logic SDK.
 
-➡️ Start the Codelab
+➡️ [Start the Codelab](https://github.com/developerjamiu/travel_planner/blob/starter/codelabs/01_INTRODUCTION.md)

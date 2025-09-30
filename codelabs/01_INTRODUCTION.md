@@ -29,21 +29,26 @@ To focus on the AI integration, we'll begin with a starter project that has the 
 
    ```bash
    git clone git@github.com:developerjamiu/travel_planner.git
-   git checkout starter
    cd travel_planner
    ```
 
-2. **Install dependencies**:
+2. **Checkout the `starter` branch**:
+
+   ```bash
+   git checkout starter
+   ```
+
+3. **Install dependencies**:
 
    ```bash
    flutter pub get
    ```
 
-3. **Run the app**:
+4. **Run the app**:
 
    Run the project on a simulator or device. You'll see the main form. Fill it out and tap "Generate Itinerary." The app will work, but it will return the same hard-coded mock data every time. Our goal is to replace this with a live, AI-powered response.
 
-4. **Explore the code**
+5. **Explore the code**
 
 ## Step 2: Configure Your Firebase Project
 
