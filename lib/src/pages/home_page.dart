@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:travel_planner/src/models/itinerary_day.dart';
 import 'package:travel_planner/src/pages/itinerary_page.dart';
+import 'package:travel_planner/src/services/gemini_itinerary_service.dart';
 import 'package:travel_planner/src/services/itinerary_service.dart';
-import 'package:travel_planner/src/services/mock_itinerary_service.dart';
 import 'package:travel_planner/src/widgets/app_button.dart';
 import 'package:travel_planner/src/widgets/app_dropdown.dart';
 import 'package:travel_planner/src/widgets/app_text_field.dart';
@@ -18,8 +18,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final _formKey = GlobalKey<FormState>();
 
-  // Replace the MockItineraryService with GeminiItinerarySerive when Implemented
-  final ItineraryService _itineraryService = MockItineraryService();
+  final ItineraryService _itineraryService = GeminiItineraryService();
   bool _isLoading = false;
 
   late final _cityController = TextEditingController();
